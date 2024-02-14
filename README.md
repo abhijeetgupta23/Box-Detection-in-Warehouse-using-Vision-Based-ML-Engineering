@@ -8,7 +8,7 @@
 <h1>Object-Detection-for-ML-Engineering</h1>
 <p>This Repo contains a Box Detection Application capable of identifying box containers in conveyor belt pictures.</p>
 
-<h2>Project Detations</h2>
+<h2>Project Details</h2>
 
 <ol>
   <li><strong>Data Science</strong>
