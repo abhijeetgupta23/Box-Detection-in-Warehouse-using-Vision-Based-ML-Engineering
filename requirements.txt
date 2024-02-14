@@ -1,0 +1,16 @@
+matplotlib
+pillow
+typing
+fastapi 
+pathlib
+requests
+uvicorn
+ultralytics
+opencv-python-headless
+opencv-contrib-python
+roboflow
+python-multipart
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch 
+torchvision 
+torchaudio 

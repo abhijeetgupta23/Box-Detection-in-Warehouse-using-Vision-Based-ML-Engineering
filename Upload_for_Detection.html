@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Detection</title>
+</head>
+<body>
+	<h2>Box Detection </h2>
+	<form action="http://127.0.0.1:8000/YOLO_Box_Prediction_Website" method="post" enctype="multipart/form-data">
+		<!-- File input field -->
+		<label for="file">Upload image to detect boxes :</label>
+		<br><br>
+		<input type="file" id="file" name="file" accept=".png, .jpg">
+		<br><br>
+		
+		<!-- Submit button -->
+		<input type="submit" value="Find Boxes">
+	</form>
+</body>
+</html>
