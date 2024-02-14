@@ -8,8 +8,27 @@
 <h1>Object-Detection-for-ML-Engineering Image</h1>
 <p>This Repo contains a Box Detection Application capable of identifying box containers in conveyor belt pictures.</p>
 
-<h2>Usage Instructions</h2>
+<h2>Project Detations</h2>
 
+<ol>
+  <li><strong>Data Science</strong>
+    <ul>
+      <li><b>Yolo8_Model_Creation.ipynb</b> downloads the dataset from Roboflow, followed by training Yolov8 on train set using transfer learning, validation and test result display. Finally, the model is saved as <i>best.pt</i></li>
+    </ul>
+  </li>
+
+  <li><strong>Machine Learning </strong>
+    <ul>
+      <li>I created a FastAPI web application to serve the saved model to customers. Home page is a basic I/O based UI that lets a user upload a conveyor belt image, and when a button is clicked, the application uses the previously saved Yolo8 model to detect box containers and return the image with labels in a new page. Alternatively, I also created an API functionality that can programmatically accept a conveyor belt image as input to return as output the image with labels saved in local system. </li>
+      <li>Finally, I deployed this FastAPI based Yolov8 application as a Docker Image, which runs this application in a containerized manner, and uploaded it to Docker Hub. This means all end users can avoid the hassle of installing multiple packages needed to run the application on their system. All they need to is to simply install Docker Desktop, pull the image from the hub, run it as a Docker container and finally access the webpage as localhost:8000</li>
+    </ul>
+  </li>
+</ol>
+  
+  
+
+<h2>End User Instructions</h2>
+In order to use this object detection web application, please follow below instructions
 <ol>
   <li><strong>Install Docker</strong>
     <ul>
