@@ -13,14 +13,22 @@
 <ol>
   <li><strong>Data Science</strong>
     <ul>
-      <li><b>Yolo8_Model_Creation.ipynb</b> downloads the dataset from Roboflow, followed by training Yolov8 on train set using transfer learning, validation and test result display. Finally, the model is saved as <i>best.pt</i></li>
+      <li><b>Yolo8_Model_Creation.ipynb</b> downloads the dataset from Roboflow, followed by training Yolov8 on train set using transfer learning, validation and test result display. Finally, the model is saved as <b>best.pt</b></li>
     </ul>
   </li>
 
-  <li><strong>Machine Learning </strong>
+  <li><strong>Machine Learning Engineering</strong>
     <ul>
-      <li>I created a FastAPI web application to serve the saved model to customers. Home page is a basic I/O based UI that lets a user upload a conveyor belt image, and when a button is clicked, the application uses the previously saved Yolo8 model to detect box containers and return the image with labels in a new page. Alternatively, I also created an API functionality that can programmatically accept a conveyor belt image as input to return as output the image with labels saved in local system. </li>
-      <li>Finally, I deployed this FastAPI based Yolov8 application as a Docker Image, which runs this application in a containerized manner, and uploaded it to Docker Hub. This means all end users can avoid the hassle of installing multiple packages needed to run the application on their system. All they need to is to simply install Docker Desktop, pull the image from the hub, run it as a Docker container and finally access the webpage as localhost:8000</li>
+      <li>I created a FastAPI web application to serve the saved model to customers.</li> 
+      <li>Home page <b>(Upload_for_Detection.html)</b> is a basic I/O based UI that lets a user upload a conveyor belt image, and when a button is clicked, the application <b>(main.py)</b> uses the previously saved Yolo8 model to detect box containers and return the image with labels in a new page. </li>
+      <li>Alternatively, I also created an API functionality that can programmatically accept a conveyor belt image as input to return as output the image with labels saved in local system. </li>
+      </ul>
+  </li>
+  <li><strong>Deployment using Docker Containerization</strong>
+    <ul>
+      <li>Finally, I deployed this FastAPI based Yolov8 application as a Docker Image (based on <b>Dockerfile</b>) and uploaded it to Docker Hub. 
+      <li>All they need to do is to simply install Docker Desktop, pull the image from the hub, run it as a Docker container and finally access the webpage on a browser as localhost:8000</li>
+      <li>Advantage of containerization is that all end users can avoid the hassle of installing packages mentioned in <b>requirements.txt</b>, which are necessary to run the application on their system.</li> 
     </ul>
   </li>
 </ol>
@@ -29,6 +37,7 @@
 
 <h2>End User Instructions</h2>
 In order to use this object detection web application, please follow below instructions
+
 <ol>
   <li><strong>Install Docker</strong>
     <ul>
