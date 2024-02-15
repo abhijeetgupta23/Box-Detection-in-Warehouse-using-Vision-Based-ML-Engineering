@@ -19,9 +19,9 @@
 
   <li><strong>Machine Learning Engineering</strong>
     <ul>
-      <li>I created a FastAPI web application to serve the saved model to customers.</li> 
-      <li>Home page <b>(Upload_for_Detection.html)</b> is a basic I/O based UI that lets a user upload a conveyor belt image, and when a button is clicked, the application <b>(main.py)</b> uses the previously saved Yolo8 model to detect box containers and return the image with labels in a new page. </li>
-      <li>Alternatively, I also created an API functionality that can programmatically accept a conveyor belt image as input to return as output the image with labels saved in local system. </li>
+      <li>I created a FastAPI web application <b>(main.py)</b> to serve the saved model to customers.</li> 
+      <li>Home page <b>(Upload_for_Detection.html)</b> is a basic I/O based UI that lets a user upload a conveyor belt image, and when a button is clicked, the application uses the previously saved Yolo8 model to detect box containers and return the image with labels in a new page. (main.py - @app.post("/YOLO_Box_Prediction_Website/") )</li>
+      <li>Alternatively, I also created an API functionality that can programmatically accept a conveyor belt image as input to return as output the image with labels saved in local system. (main.py - @app.post("/YOLO_Box_Prediction_Service/") )</li>
       </ul>
   </li>
   <li><strong>Deployment using Docker Containerization</strong>
