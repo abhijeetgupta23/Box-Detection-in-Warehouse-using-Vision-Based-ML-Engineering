@@ -11,7 +11,7 @@
 <h2>Project Details</h2>
 
 <ol>
-  <li><strong>Data Science</strong>
+  <li><strong>Computer Vision based Data Science</strong>
     <ul>
       <li><b>Yolo8_Model_Creation.ipynb</b> downloads the dataset from Roboflow, followed by training Yolov8 on train set using transfer learning, validation and test result display. Finally, the model is saved as <b>best.pt</b></li>
     </ul>
