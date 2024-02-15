@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<h1>Object-Detection-for-ML-Engineering</h1>
+<h1>Box-Detection-in-Warehouse</h1>
 <p>This Repo contains a Box Detection Application capable of identifying box containers in conveyor belt pictures.</p>
 <img src="https://github.com/abhijeetgupta23/Object-Detection-for-ML-Engineering/assets/16919762/4999ad0c-abca-4496-9fc6-f5a5db2acfc7">
 <h2>Project Details</h2>
