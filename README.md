@@ -7,7 +7,7 @@
 <body>
 <h1>Object-Detection-for-ML-Engineering</h1>
 <p>This Repo contains a Box Detection Application capable of identifying box containers in conveyor belt pictures.</p>
-![image](https://github.com/abhijeetgupta23/Object-Detection-for-ML-Engineering/assets/16919762/4999ad0c-abca-4496-9fc6-f5a5db2acfc7)
+<img src="https://github.com/abhijeetgupta23/Object-Detection-for-ML-Engineering/assets/16919762/4999ad0c-abca-4496-9fc6-f5a5db2acfc7">
 <h2>Project Details</h2>
 
 <ol>
