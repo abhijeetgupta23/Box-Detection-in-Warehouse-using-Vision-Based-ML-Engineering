@@ -15,13 +15,13 @@ app = FastAPI()
 async def read_index():
     return FileResponse('Upload_for_Detection.html')
 
-# Define endpoint for making box predictions
+# Define endpoint for making box predictions using Web UI
 @app.post("/YOLO_Box_Prediction_Website/")
 def predict_uploaded_image(file: UploadFile):
 
     try:
 
-        # Upload the image transmitted via POST in a file based on its name
+        # Upload and open the image transmitted via POST in a file based on its name
         file_name = file.filename
         with open(file_name, "wb") as f:
             f.write(file.file.read())
@@ -41,11 +41,9 @@ def predict_uploaded_image(file: UploadFile):
     except Exception as e:
         return {"message": e.args}
     
-# Define endpoint for making box predictions
+# Define endpoint for making box predictions programatically
 @app.post("/YOLO_Box_Prediction_Service/")
 async def predict_uploaded_image(file: UploadFile):
-
-    #contents = await file.read()
 
     try:
 
