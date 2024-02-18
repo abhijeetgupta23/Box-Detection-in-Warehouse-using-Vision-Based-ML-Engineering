@@ -47,7 +47,7 @@ In order to use this object detection web application, please follow below instr
 
   <li><strong>Pull the Docker Image</strong>
     <ul>
-      <li>Open a terminal or command prompt in your system and run:
+      <li>Open docker desktop, followed by a terminal or command prompt in your system and run:
         <pre><code>docker pull agpsuai23/box_detection_image</code></pre>
       </li>
       <li>This command will download the Docker image named <code>agpsuai23/box_detection_image</code> to your local machine.</li>
