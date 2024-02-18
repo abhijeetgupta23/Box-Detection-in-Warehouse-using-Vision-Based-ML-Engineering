@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Box Detection</title>
+    <title>
+		Box Detection in Warehouse Conveyor Belts	
+	</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url("https://www.greyorange.com/wp-content/uploads/2022/10/BANNER-IL-min.jpeg"); /* Add your background image here */
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(255, 255, 255, 0.01); /* Semi-transparent white */
+            
+        }
+        form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 30px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 1); /* Semi-transparent white */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        h2 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="file"] {
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"] {
+            background-color: #03A9F4; /* Blue */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        input[type="submit"]:hover {
+            background-color: #028BEB;
+        }
+    </style>
 </head>
 <body>
-	<h2>Box Detection </h2>
-	<form action="http://127.0.0.1:8000/YOLO_Box_Prediction_Website" method="post" enctype="multipart/form-data">
-		<!-- File input field -->
-		<label for="file">Upload image to detect boxes :</label>
-		<br><br>
-		<input type="file" id="file" name="file" accept=".png, .jpg">
-		<br><br>
-		
-		<!-- Submit button -->
-		<input type="submit" value="Find Boxes">
-	</form>
+    <form action="http://127.0.0.1:8000/YOLO_Box_Prediction_Website" method="post" enctype="multipart/form-data">
+        <h2>Box Detection in Warehouse Conveyor Belts</h2>
+        <label for="file">Upload image:</label>
+        <input type="file" id="file" name="file" accept=".png, .jpg">
+        <input type="submit" value="Find Boxes">
+    </form>
 </body>
 </html>
