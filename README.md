@@ -35,7 +35,7 @@
   
   
 
-<h2>End User Instructions</h2>
+<h2>End User Instructions to run the Object Detection Model</h2>
 In order to use this object detection web application, please follow below instructions
 
 <ol>
