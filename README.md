@@ -8,32 +8,6 @@
 <h1>Box Detection in Warehouse Conveyor Belts</h1>
 <p>This Repo contains a Box Detection Application capable of identifying box containers in conveyor belt pictures.</p>
 <img src="https://github.com/abhijeetgupta23/Box-Detection-in-Warehouse-using-Vision-Based-ML-Engineering/assets/16919762/41706bd0-428b-4199-9917-7aea3bc9fb1c">
-<h2>Project Details</h2>
-
-<ol>
-  <li><strong>Computer Vision based Data Science</strong>
-    <ul>
-      <li><b>Yolo8_Model_Creation.ipynb</b> downloads the dataset from Roboflow, followed by training Yolov8 on train set using transfer learning, validation and test result display. Finally, the model is saved as <b>best.pt</b></li>
-    </ul>
-  </li>
-
-  <li><strong>Machine Learning Engineering</strong>
-    <ul>
-      <li>I created a FastAPI web application <b>(main.py)</b> to serve the saved model to customers.</li> 
-      <li>Home page <b>(Upload_for_Detection.html)</b> is a basic I/O based UI that lets a user upload a conveyor belt image, and when a button is clicked, the application uses the previously saved Yolo8 model to detect box containers and return the image with labels in a new page. (main.py - @app.post("/YOLO_Box_Prediction_Website/") )</li>
-      <li>Alternatively, I also created an API functionality that can programmatically accept a conveyor belt image as input to return as output the image with labels saved in local system. (main.py - @app.post("/YOLO_Box_Prediction_Service/") )</li>
-      </ul>
-  </li>
-  <li><strong>Deployment using Docker Containerization</strong>
-    <ul>
-      <li>Finally, I deployed this FastAPI based Yolov8 application as a Docker Image (based on <b>Dockerfile</b>) and uploaded it to Docker Hub. 
-      <li>All they need to do is to simply install Docker Desktop, pull the image from the hub, run it as a Docker container and finally access the webpage on a browser as localhost:8000</li>
-      <li>Advantage of containerization is that all end users can avoid the hassle of installing packages mentioned in <b>requirements.txt</b>, which are necessary to run the application on their system.</li> 
-    </ul>
-  </li>
-</ol>
-  
-  
 
 <h2>End User Instructions to run the Object Detection Model</h2>
 In order to use this object detection web application, please follow below instructions
@@ -70,6 +44,32 @@ In order to use this object detection web application, please follow below instr
     </ul>
   </li>
 </ol>
+  
+<h2>Project Details</h2>
+<h3>****Add FlowChart image here****</h3>
+<ol>
+  <li><strong>Computer Vision based Data Science</strong>
+    <ul>
+      <li><b>Yolo8_Model_Creation.ipynb</b> downloads the dataset from Roboflow, followed by training Yolov8 on train set using transfer learning, validation and test result display. Finally, the model is saved as <b>best.pt</b></li>
+    </ul>
+  </li>
+
+  <li><strong>Machine Learning Engineering</strong>
+    <ul>
+      <li>I created a FastAPI web application <b>(main.py)</b> to serve the saved model to customers.</li> 
+      <li>Home page <b>(Upload_for_Detection.html)</b> is a basic I/O based UI that lets a user upload a conveyor belt image, and when a button is clicked, the application uses the previously saved Yolo8 model to detect box containers and return the image with labels in a new page. (main.py - @app.post("/YOLO_Box_Prediction_Website/") )</li>
+      <li>Alternatively, I also created an API functionality that can programmatically accept a conveyor belt image as input to return as output the image with labels saved in local system. (main.py - @app.post("/YOLO_Box_Prediction_Service/") )</li>
+      </ul>
+  </li>
+  <li><strong>Deployment using Docker Containerization</strong>
+    <ul>
+      <li>Finally, I deployed this FastAPI based Yolov8 application as a Docker Image (based on <b>Dockerfile</b>) and uploaded it to Docker Hub. 
+      <li>All they need to do is to simply install Docker Desktop, pull the image from the hub, run it as a Docker container and finally access the webpage on a browser as localhost:8000</li>
+      <li>Advantage of containerization is that all end users can avoid the hassle of installing packages mentioned in <b>requirements.txt</b>, which are necessary to run the application on their system.</li> 
+    </ul>
+  </li>
+</ol>
+
 
 </body>
 </html>
