@@ -8,7 +8,14 @@
 <h1>Box Detection in Warehouse Conveyor Belts</h1>
 <p>This Repo contains a Box Detection Application capable of identifying box containers in conveyor belt pictures.</p>
 <img src="https://github.com/abhijeetgupta23/Box-Detection-in-Warehouse-using-Vision-Based-ML-Engineering/assets/16919762/41706bd0-428b-4199-9917-7aea3bc9fb1c">
-
+<br></br>
+This project has many applications in Warehouse Inventory Management:
+<br></br>
+<ul>
+      <li><b>Accurate Counting</b>: Automatically count boxes on conveyor belts for real-time inventory updates, reducing manual counting errors and delays. </li>
+      <li><b>Box Type Identification</b>: Differentiate between different types of boxes based on size, shape, or markings, enabling efficient sorting and tracking.</li>
+      <li><b>Damage Detection</b>: Identify damaged boxes during transportation, allowing for quicker intervention and quality control.</li>
+</ul>
 <h2>End User Instructions to run the Object Detection Model</h2>
 In order to use this object detection web application, please follow below instructions
 
