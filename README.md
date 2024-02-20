@@ -57,8 +57,8 @@ In order to use this object detection web application, please follow below instr
   <li><strong>Machine Learning Engineering</strong>
     <ul>
       <li>I created a FastAPI web application <b>(main.py)</b> to serve the saved model to customers.</li> 
-      <li>Home page <b>(Upload_for_Detection.html)</b> is a basic I/O based UI that lets a user upload a conveyor belt image, and when a button is clicked, the application uses the previously saved Yolo8 model to detect box containers and return the image with labels in a new page. (main.py - @app.post("/YOLO_Box_Prediction_Website/") )</li>
-      <li>Alternatively, I also created an API functionality that can programmatically accept a conveyor belt image as input to return as output the image with labels saved in local system. (main.py - @app.post("/YOLO_Box_Prediction_Service/") )</li>
+      <li>Home page <b>(Upload_for_Detection.html)</b> is a basic I/O based UI that lets a user upload a conveyor belt image, and when a button is clicked, the application uses the previously saved Yolo8 model to detect box containers and return the image with labels in a new page. Code can be found in main.py - @app.post("/YOLO_Box_Prediction_Website/") </li>
+      <li>Alternatively, I also created an API functionality that can programmatically accept a conveyor belt image as input to return as output the image with labels saved in local system. Working can be found at  main.py - @app.post("/YOLO_Box_Prediction_Service/"). An example of API call can be found in <b>CUSTOM_YOLO_API_call.ipynb</b> </li>
       </ul>
   </li>
   <li><strong>Deployment using Docker Containerization</strong>
