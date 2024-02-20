@@ -48,9 +48,9 @@ In order to use this object detection web application, please follow below instr
 <h2>Project Details</h2>
 <img src="https://github.com/abhijeetgupta23/Box-Detection-in-Warehouse-using-Vision-Based-ML-Engineering/assets/16919762/85cfbe9b-cab4-428b-9fca-5e699ea5d8b8">
 <ol>
-  <li><strong>Computer Vision based Data Science</strong>
+  <li><strong>Computer Vision based Data Science & ML</strong>
     <ul>
-      <li><b>Yolo8_Model_Creation.ipynb</b> downloads the dataset from Roboflow, followed by training Yolov8 on train set using transfer learning, validation and test result display. Finally, the model is saved as <b>best.pt</b></li>
+      <li><b>Yolo8_Model_Creation.ipynb</b> downloads the dataset from Roboflow, followed by training Yolov8 on train set using transfer learning, validation and test result display. We end up with a <b>mean Average Precision (mAP) of 0.913 (90%+)</b>. Finally, the model is saved as <b>best.pt</b></li>
     </ul>
   </li>
 
