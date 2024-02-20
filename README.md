@@ -46,7 +46,7 @@ In order to use this object detection web application, please follow below instr
 </ol>
   
 <h2>Project Details</h2>
-<h3>****Add FlowChart image here****</h3>
+<img src="https://github.com/abhijeetgupta23/Box-Detection-in-Warehouse-using-Vision-Based-ML-Engineering/assets/16919762/85cfbe9b-cab4-428b-9fca-5e699ea5d8b8">
 <ol>
   <li><strong>Computer Vision based Data Science</strong>
     <ul>
